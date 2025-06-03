@@ -1,0 +1,75 @@
+body{
+  background-color: hsl(0, 0%, 8%);
+  margin: 0;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 0;
+  font-family: Inter;
+}
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.profile-picture {
+  height: 60px;
+  border-radius: 30px;
+}
+
+.social-links {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 10px;
+}
+
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  width: 300px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 16px;
+}
+
+.address {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.skills {
+  color: hsl(0, 0%, 80%);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
